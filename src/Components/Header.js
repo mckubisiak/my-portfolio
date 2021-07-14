@@ -77,7 +77,7 @@ const Header = () => {
           <SidebarContent>
             <Menu iconShape='circle'>
 
-              <MenuItem icon={<SiAboutDotMe />}><NavLink to="/about">About</NavLink></MenuItem>
+              <MenuItem icon={<SiAboutDotMe />}><NavLink to="/">About</NavLink></MenuItem>
               <MenuItem icon={<SiVisualstudiocode />}><NavLink to="/code">Code</NavLink></MenuItem>
               <MenuItem icon={<HiOutlinePhotograph />}> <a href="https://kubisiak.darkroom.tech/"  target="_blank" rel="noopener noreferrer">Photography</a> </MenuItem>
           <MenuItem icon={<GrContact />}><NavLink to="/contact">Contact</NavLink></MenuItem>
