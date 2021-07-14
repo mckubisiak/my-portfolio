@@ -1,3 +1,16 @@
+Code Referenced!
+
+https://medium.com/how-to-react/create-a-sidebar-menu-in-react-js-3463b306ca9a 
+
+https://blog.greenroots.info/3-quick-ways-to-add-fonts-to-your-react-app-ckjo6jbgd084w8ls1d7xp05qj (i forgot where to post font links)
+
+http://computerscience1o1.blogspot.com/2015/11/source-code-to-change-background-color.html (frame work for changing background based on time of day) 
+
+https://www.npmjs.com/package/react-switch
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
