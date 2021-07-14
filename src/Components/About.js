@@ -14,10 +14,6 @@ export default class About extends Component {
                         A queer trans Software Engineer. I love mutually developing with people and supporting everyone's common as well as individuals goals. Photography and <a href= "https://docs.google.com/document/d/1Tb3ETGO7tTbJFjT9ZHOJqpmd-qvIyq-JAkz8kT4pQfY/edit">Mutual Aid</a> are other avenues I like to participate in community.
                         </p>
                         
-                            <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/kubisiak/"><img className='icon' src='./linkedin.png' alt='LinkedIn' /></a>
-                            <a target="_blank" rel='noreferrer' href="https://github.com/mckubisiak"><img className='icon' src='./github.png' alt='Github' />
-                            </a>
-                        
                     </article>
                 </div>
 

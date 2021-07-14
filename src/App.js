@@ -11,6 +11,7 @@ import Footer from './Components/Footer.js';
 import LandingPage from './Components/LandingPage.js';
 import Photography from './Components/Photography';
 import About from './Components/About';
+import Code from './Components/Code';
 
 
 // For changing background based on time of day
@@ -56,6 +57,11 @@ export default class App extends Component {
             <Route exact path='/about' render={
               (routerProps) => 
               <About {...routerProps} />
+            } />
+
+            <Route exact path='/code' render={
+              (routerProps) => 
+              <Code {...routerProps} />
             } />
 
           </Switch>
