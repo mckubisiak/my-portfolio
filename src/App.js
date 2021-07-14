@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
-import LandingPage from './Components/LandingPage.js';
 import Photography from './Components/Photography';
 import About from './Components/About';
 import Code from './Components/Code';
