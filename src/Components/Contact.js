@@ -6,10 +6,8 @@ export default function Contact() {
 
 <form 
 name="contact" 
-method="post"
 data-netlify="true"
-action="POST"
-
+netlify
 >
     
             <p>
