@@ -8,6 +8,8 @@ export default function Contact() {
 name="contact" 
 method="post"
 data-netlify="true"
+action="POST"
+
 >
     
             <p>
