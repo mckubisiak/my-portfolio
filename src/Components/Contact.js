@@ -31,7 +31,7 @@ export default class Contact extends Component {
         const { name, email, message } = this.state;
         return (
             <div>
-                <form onSubmit={this.handleSubmit}>
+                <form name="contact" method="post" data-netlify="true" onSubmit={this.handleSubmit}>
             <p>
             <label>
                 Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
