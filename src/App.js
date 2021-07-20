@@ -11,7 +11,7 @@ import Footer from './Components/Footer.js';
 import Photography from './Components/Photography';
 import About from './Components/About';
 import Code from './Components/Code';
-import Contact from './Components/Contact';
+import ContactForm from './Components/ContactForm';
 
 
 // For changing background based on time of day
@@ -62,7 +62,7 @@ export default class App extends Component {
 
             <Route exact path='/contact' render={
               (routerProps) => 
-              <Contact {...routerProps} />
+              <ContactForm {...routerProps} />
             } />
           </Switch>
           <Footer />
