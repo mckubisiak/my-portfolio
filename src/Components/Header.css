@@ -2,6 +2,11 @@
     position: absolute;
     width: 220px;
     opacity: .7;
+    margin-top: 65px;
+  }
+
+  li {
+    font-size: 13px;
   }
 
   #header .closemenu {
@@ -23,8 +28,8 @@
 
   }
   #header .pro-sidebar.collapsed {
-    width: 80px;
-    min-width: 80px;
+    width: 75px;
+    min-width: 75px;
     background-color: rgba(73, 40, 71, .1);
     margin: 0%;
   }
