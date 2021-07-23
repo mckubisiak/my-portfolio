@@ -26,6 +26,7 @@
     width: 80px;
     min-width: 80px;
     background-color: rgba(73, 40, 71, .1);
+    margin: 0%;
   }
   #header .pro-sidebar-inner {
     border-radius: 0 2em 2em 0;

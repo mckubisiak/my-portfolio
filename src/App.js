@@ -43,6 +43,7 @@ export default class App extends Component {
     return (
       <Router>
         <Header />
+      <div className='mainDiv'>
           <Switch>
             <Route exact path='/' render={
               (routerProps) => 
@@ -65,6 +66,7 @@ export default class App extends Component {
               <ContactForm {...routerProps} />
             } />
           </Switch>
+      </div>
           <Footer />
       </Router>
     )

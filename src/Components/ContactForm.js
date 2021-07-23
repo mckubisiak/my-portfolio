@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../App.css';
 
 const encode = (data) => {
     return Object.keys(data)
@@ -37,7 +38,7 @@ export default class Contact extends Component {
                 onSubmit={this.handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />
 
-            <p>
+            <p className='main'>
             <label>
                 Your Name: <input 
                 type="text" 
@@ -46,7 +47,7 @@ export default class Contact extends Component {
                 onChange={this.handleChange} />
             </label>
             </p>
-            <p>
+            <p className='main'>
             <label>
                 Your Email: <input 
                 type="email" 
@@ -55,7 +56,7 @@ export default class Contact extends Component {
                 onChange={this.handleChange} />
             </label>
             </p>
-            <p>
+            <p className='main'>
             <label>
                 Message: <textarea 
                 name="message" 
@@ -63,7 +64,7 @@ export default class Contact extends Component {
                 onChange={this.handleChange} />
             </label>
             </p>
-            <p>
+            <p className='main'>
             <button 
             type="submit">Send</button>
             </p>

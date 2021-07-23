@@ -35,7 +35,7 @@ bodyColor.style.backgroundColor = "#272727";
                             <a target="_blank" rel='noreferrer' href="https://github.com/mckubisiak"><img className='icon' src='./github.png' alt='Github' />
                             </a>
                         
-                        <br></br>
+                        {/* <br></br>
                 <label htmlFor="material-switch">
             <Switch
             checked={this.state.checked}
@@ -53,9 +53,9 @@ bodyColor.style.backgroundColor = "#272727";
             className="react-switch"
             id="material-switch"
             />
-        </label>
+        </label> 
 
-                <p><span>☾</span> 2021 AlKubi Code Lab</p>
+                <p><span>☾</span> 2021 Kubisiak</p>*/}
             </div>
         )
     }
