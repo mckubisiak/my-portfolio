@@ -15,6 +15,7 @@ font-family: 'Roboto', sans-serif; */
   position: absolute;
   bottom: 0;
   left: 0;
+  
 }
 
 .mainDiv {
@@ -26,8 +27,13 @@ font-family: 'Roboto', sans-serif; */
   align-items: center;
 }
 
+.backgroundColor {
+  background-color: #172727;
+}
+
 .main {
   width: 70%;
+  color: #535353;
 }
 
 .App {
@@ -38,7 +44,7 @@ font-family: 'Roboto', sans-serif; */
 
 img {
   width: auto ;
-  max-width: 60% ;
+  max-width: 300px ;
   height: auto ;
     padding: 5px;
     border-radius: 2em;

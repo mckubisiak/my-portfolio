@@ -5,9 +5,9 @@ export default class About extends Component {
     render() {
         return (
             <div >
-                <h1>About Kubisiak</h1>
+                <h1 className='main'>About Kubisiak</h1>
                 <div>
-                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQHj3Ur5UOz9IQ/profile-displayphoto-shrink_400_400/0/1625847270208?e=1631145600&v=beta&t=8a_jgN-fYS906YzL7NmVWyFUOXBY0cyeFfFTo8wpMRQ" alt="Kubisiak" />
+                    <img src="https://scontent.fhio2-1.fna.fbcdn.net/v/t1.15752-9/224017288_926009834646601_2786340127800676735_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=wYwCLSJORWUAX-GPsEp&_nc_ht=scontent.fhio2-1.fna&oh=524c6c70cb847cf0167fbad9db434384&oe=6126008C" alt="Kubisiak" />
                     <article className='mainDiv'>
 
                     <p className='main'>

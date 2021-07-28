@@ -30,8 +30,7 @@ import ContactForm from './Components/ContactForm';
 //                    }
 //                }
 
-let bodyColor = document.getElementsByTagName("BODY")[0];
-bodyColor.style.backgroundColor = "#272727";
+
             
 
 export default class App extends Component {
