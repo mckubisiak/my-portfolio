@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import './Code.css'
-import '../App.css';
-
+import '../Styles/Code.css'
+import '../Styles/App.css'
 export default class Code extends Component {
     render() {
         return (

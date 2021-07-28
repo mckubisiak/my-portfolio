@@ -40,9 +40,8 @@ import { FiArrowLeftCircle, FiArrowRightCircle } from "react-icons/fi";
 
 
 //import sidebar css from react-pro-sidebar module and our custom css 
-import "./styles.css";
-import "./Header.css";
-
+import "../Styles/styles.css";
+import "../Styles/Header.css";
 
 const Header = () => {
   
