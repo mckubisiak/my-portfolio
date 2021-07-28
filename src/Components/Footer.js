@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Switch from "react-switch";
+// import Switch from "react-switch";
 
 export default class Footer extends Component {
     state = {
@@ -18,12 +18,12 @@ export default class Footer extends Component {
         if ( this.state.checked ){
             //Day
             let bodyColor = document.getElementsByTagName("BODY")[0];
-bodyColor.style.backgroundColor = "#171717";
-            }
+            bodyColor.style.backgroundColor = "#171717";
+        }
             else if( this.state.checked === false){
             //Night
             let bodyColor = document.getElementsByTagName("BODY")[0];
-bodyColor.style.backgroundColor = "#f2e4ff";
+bodyColor.style.backgroundColor = "#171717";
             }
         }
 
@@ -36,7 +36,7 @@ bodyColor.style.backgroundColor = "#f2e4ff";
                             </a>
                         
                         <br></br>
-                <label htmlFor="material-switch">
+                {/* <label htmlFor="material-switch">
             <Switch
             checked={this.state.checked}
             onChange={this.handleChange}
@@ -53,7 +53,7 @@ bodyColor.style.backgroundColor = "#f2e4ff";
             className="react-switch"
             id="material-switch"
             />
-        </label> 
+        </label>  */}
 
                {/*  <p><span>☾</span> 2021 Kubisiak</p>*/}
             </div>

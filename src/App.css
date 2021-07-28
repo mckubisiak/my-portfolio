@@ -6,7 +6,12 @@ font-family: 'Roboto', sans-serif; */
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
+    border-radius: 2em;
     
+}
+
+html {
+  background-color: #bea6d4;
 }
 
 .footer {
@@ -25,15 +30,13 @@ font-family: 'Roboto', sans-serif; */
   align-self: center;
   max-width: 85%;
   align-items: center;
+  background-color: #bea6d4;
 }
 
-.backgroundColor {
-  background-color: #172727;
-}
 
 .main {
   width: 70%;
-  color: #535353;
+  color: #383838;
 }
 
 .App {
