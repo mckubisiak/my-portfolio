@@ -8,7 +8,11 @@ http://computerscience1o1.blogspot.com/2015/11/source-code-to-change-background-
 
 https://www.npmjs.com/package/react-switch
 
-
+        Icon by <a href="https://freeicons.io/profile/3">freeicons</a> on <a href="https://freeicons.io">freeicons.io</a>
+        Icon by <a href="https://freeicons.io/profile/823">Muhammad Haq</a> on <a href="https://freeicons.io">freeicons.io</a>
+        Icon by <a href="https://freeicons.io/profile/2257">uicon</a> on <a href="https://freeicons.io">freeicons.io</a>
+        Icon by <a href="https://freeicons.io/profile/4072">116271446681431375847</a> on <a href="https://freeicons.io">freeicons.io</a>
+    
 
 
 # Getting Started with Create React App
