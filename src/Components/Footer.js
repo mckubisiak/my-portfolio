@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../Styles/App.css';
+import '../Styles/App.css';
 // import Switch from "react-switch";
 
 export default class Footer extends Component {

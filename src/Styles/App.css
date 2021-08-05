@@ -14,8 +14,14 @@ font-family: 'Roboto', sans-serif; */
 }
 
 html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
   background-color: #bea6d4;
   border-radius: 2em;
+  background-image: linear-gradient(to bottom left, #bea6d4, #ffc897);
 }
 
 .header {
@@ -35,6 +41,7 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
+  background-color: #00000000;
 }
 
 .mainDiv {
@@ -45,7 +52,6 @@ html {
   align-self: center;
   max-width: 85%;
   align-items: center;
-  background-color: #bea6d4;
 }
 
 article {
