@@ -1,8 +1,16 @@
 h3 {
   color: rgb(48, 48, 48);
   max-width: 95%;
+  font-family: 'Archivo Black', sans-serif;
+
 }
 
 h2 {
   color: rgb(48, 48, 48);
+  font-family: 'Archivo Black', sans-serif;
+
+}
+
+span {
+  font-family: 'Space Mono', monospace; 
 }

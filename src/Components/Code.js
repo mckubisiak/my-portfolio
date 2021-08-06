@@ -7,7 +7,7 @@ export default class Code extends Component {
       <div className='mainDiv'>
         <div>
           <h2>Astrolocus</h2>
-          <span>
+          <span className='mainP'>
             <a
               href='https://github.com/Astromapi/astromapi-front-end'
               target='_blank'
@@ -33,7 +33,7 @@ export default class Code extends Component {
             </a>
           </span>
           <h3>React, Local storage, PostgreSQL, Heroku, CSS</h3>
-          <p className='main'>
+          <p className='mainP'>
             Astrolocus allows you to see a 3 day span of weather and sky
             visibility, along with the ability added space objects to a wish
             list and and journal entries with them in the future. I co-led the

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../Styles/App.css';
-
+import '../Styles/Contact.css';
 const encode = (data) => {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -34,9 +34,10 @@ export default class Contact extends Component {
         <form name='contact' method='post' onSubmit={this.handleSubmit}>
           <input type='hidden' name='form-name' value='contact' />
 
-          <p className='main'>
+          <p className='mainP'>
             <label>
               Your Name:{' '}
+              <br></br>
               <input
                 type='text'
                 name='name'
@@ -46,9 +47,10 @@ export default class Contact extends Component {
               />
             </label>
           </p>
-          <p className='main'>
+          <p className='mainP'>
             <label>
               Your Email:{' '}
+              <br></br>
               <input
                 type='email'
                 name='email'
@@ -57,10 +59,10 @@ export default class Contact extends Component {
                 onChange={this.handleChange}
               />
             </label>
-          </p>
-          <p className='main'>
+              <br></br>
             <label>
               Message:{' '}
+              <br></br>
               <textarea
                 name='message'
                 value={message}
@@ -69,7 +71,7 @@ export default class Contact extends Component {
               />
             </label>
           </p>
-          <p className='main'>
+          <p className='mainP'>
             <button type='submit'>Send</button>
           </p>
         </form>

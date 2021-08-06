@@ -5,17 +5,17 @@ export default class Header extends Component {
   render() {
     return (
       <div className='header'>
-        <NavLink className='headerLink' to='/'>  about  </NavLink>
-        <NavLink className='headerLink' to='/code'> code  </NavLink>
+        <NavLink className='headerLink' to='/'>about</NavLink>
+        <NavLink className='headerLink' to='/code'>code</NavLink>
         <a
           className='headerLink'
           href='https://kubisiak.darkroom.tech/'
           target='_blank'
           rel='noopener noreferrer'
         >  
-           photography
+          photography
         </a>
-        <NavLink className='headerLink' to='/contact'>   contact  </NavLink>
+        <NavLink className='headerLink' to='/contact'>contact</NavLink>
       </div>
     );
   }

@@ -2,7 +2,10 @@
 
 
 /* font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif; 
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Space Mono', monospace; 
+*/
 
 
 
@@ -26,6 +29,8 @@ body {
 
 .header {
   padding-top: 1em;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
 }
 
 .headerLink {
@@ -33,6 +38,7 @@ body {
   margin: 10px;
   border-radius: 10px;
   border: solid 2px;
+  font-family: 'Space Mono', monospace;
 }
 
 .footer {
@@ -60,14 +66,15 @@ article {
   align-items: center;
 }
 
-.contactDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 13px;
+
+
+.mainTitle {
+  color: #383838;
+  font-family: 'Archivo Black', sans-serif;
 }
 
-.main {
+.mainP {
+  font-family: 'Space Mono', monospace; 
   color: #383838;
 }
 
