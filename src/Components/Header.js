@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import * as faIcons from 'react-icons/fa';
+
+
 
 export default class Header extends Component {
   render() {
     return (
       <div className='header'>
+        <faIcons.FaBars />
+        <faIcons.FaHome />
         <NavLink className='headerLink' to='/'>about</NavLink>
         <NavLink className='headerLink' to='/code'>code</NavLink>
         <a
