@@ -21,7 +21,7 @@ export default class About extends Component {
                 rel='noopener noreferrer'
               >
                 {' '}
-                Mutual Aid{' '}
+                Mutual Aid
               </a>{' '}
               are other avenues I like to participate in my community.
             </p>
