@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
-
+import '../Styles/App.css';
 export default class About extends Component {
   render() {
     return (
       <div className='aboutDiv'>
         <h1 className='mainTitle'>About Kubisiak</h1>
         <div>
-          <img
-            src='https://scontent.fhio2-1.fna.fbcdn.net/v/t1.15752-9/224017288_926009834646601_2786340127800676735_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=ae9488&_nc_ohc=wYwCLSJORWUAX-GPsEp&_nc_ht=scontent.fhio2-1.fna&oh=524c6c70cb847cf0167fbad9db434384&oe=6126008C'
-            alt='Kubisiak'
-          />
+          <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://www.linkedin.com/in/kubisiak/'
+        >
+          <img className='icon' src='./linkedin.png' alt='LinkedIn' />
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/mckubisiak'
+        >
+          <img className='icon' src='./github.png' alt='Github' />
+        </a>
           <article>
             <p className='mainP'>
               A queer trans Software Engineer. I love developing with people and

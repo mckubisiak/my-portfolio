@@ -19,7 +19,8 @@ body {
   height: 100%;
   background-color: #bea6d4;
   border-radius: 2em;
-  background-image: linear-gradient(to bottom left, #bea6d4, #ffc897);
+  background: linear-gradient(to bottom left, #bea6d4, #ffc897);
+
 }
 
 .header {
@@ -64,13 +65,19 @@ text-decoration-color: #2946bf;}
 }
 
 .mainDiv {
-  padding-top: 4vh;
-  display: flex;
+  flex-direction: row;
+  padding-top: 2vh;
   justify-content: center;
   align-content: center;
   align-self: center;
   max-width: 85%;
   align-items: center;
+  
+}
+
+.aboutDiv {
+  padding-top: 8vh;
+  min-width: 400px;
 }
 
 article {
