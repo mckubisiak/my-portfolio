@@ -21,8 +21,12 @@ export default class Contact extends Component {
     })
       .then(() => alert('Success!'))
       .catch((error) => alert(error));
-
     e.preventDefault();
+    this.setState({
+      name: '',
+      email: '',
+      message: '',
+    });
   };
 
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
@@ -30,54 +34,50 @@ export default class Contact extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-
       <div className='mainDiv'>
-      <div className='contactDiv'>
-        <form name='contact' method='post' onSubmit={this.handleSubmit}>
-          <input type='hidden' name='form-name' value='contact' />
+        <div className='contactDiv'>
+          <form name='contact' method='post' onSubmit={this.handleSubmit}>
+            <input type='hidden' name='form-name' value='contact' />
 
-          <p className='mainP'>
-            <label>
-              Your Name:{' '}
+            <p className='mainP'>
+              <label>
+                Your Name: <br></br>
+                <input
+                  type='text'
+                  name='name'
+                  value={name}
+                  required
+                  onChange={this.handleChange}
+                />
+              </label>
+            </p>
+            <p className='mainP'>
+              <label>
+                Your Email: <br></br>
+                <input
+                  type='email'
+                  name='email'
+                  value={email}
+                  required
+                  onChange={this.handleChange}
+                />
+              </label>
               <br></br>
-              <input
-                type='text'
-                name='name'
-                value={name}
-                required
-                onChange={this.handleChange}
-              />
-            </label>
-          </p>
-          <p className='mainP'>
-            <label>
-              Your Email:{' '}
-              <br></br>
-              <input
-                type='email'
-                name='email'
-                value={email}
-                required
-                onChange={this.handleChange}
-              />
-            </label>
-              <br></br>
-            <label>
-              Message:{' '}
-              <br></br>
-              <textarea
-                name='message'
-                value={message}
-                required
-                onChange={this.handleChange}
-              />
-            </label>
-          </p>
-          <p className='mainP'>
-            <button type='submit'>Send</button>
-          </p>
-        </form>
-      </div>
+              <label>
+                Message: <br></br>
+                <textarea
+                  name='message'
+                  value={message}
+                  required
+                  onChange={this.handleChange}
+                />
+              </label>
+            </p>
+            <p className='mainP'>
+              <button type='submit'>Send</button>
+            </p>
+          </form>
+        </div>
       </div>
     );
   }
