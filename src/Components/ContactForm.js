@@ -30,6 +30,8 @@ export default class Contact extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
+
+      <div className='mainDiv'>
       <div className='contactDiv'>
         <form name='contact' method='post' onSubmit={this.handleSubmit}>
           <input type='hidden' name='form-name' value='contact' />
@@ -75,6 +77,7 @@ export default class Contact extends Component {
             <button type='submit'>Send</button>
           </p>
         </form>
+      </div>
       </div>
     );
   }

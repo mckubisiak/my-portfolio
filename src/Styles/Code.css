@@ -14,3 +14,7 @@ h2 {
 span {
   font-family: 'Space Mono', monospace; 
 }
+
+.projectTitle {
+  padding-top: 1vh;
+}
