@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <div className='aboutDiv'>
-        <h1 className='mainTitle'>About Kubisiak</h1>
+        <h1 className='mainTitle'>About Dot Kubisiak</h1>
         <div>
           <a
           target='_blank'
