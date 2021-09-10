@@ -6,14 +6,19 @@ export default class Code extends Component {
     return (
       <div className='mainDiv'>
         <div>
-          <h2 className='projectTitle'>affirbisiaks</h2>
-          <span className='mainP'>
+          <h1 className='projectTitle'>affirbisiaks</h1>
+          
+          <h4>
+            SEQUELIZE - TWILIO - JEST - NODE.JS - HEROKU - REACT - GOOGLE OAUTH
+            - NETLIFY{' '}
+          </h4>
+          <h4 >
             <a
               href='https://github.com/affirbisiaks'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Code
+              CODE
             </a>{' '}
             -{' '}
             <a
@@ -21,16 +26,12 @@ export default class Code extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Deployed
-            </a>
-          </span>
-          <h3>
-            SEQUELIZE - TWILIO - JEST - NODE.JS - HEROKU - REACT - GOOGLE OAUTH
-            - NETLIFY{' '}
-          </h3>
+              DEPLOYED
+            </a> | 5 ENGINEERS - 2 WEEK SPRINT - REMOTE
+          </h4>
           <p className='mainP'>
-            Have positive affirmations from a selected category sent to you via
-            text every other day for 2 weeks at a time. I led implementation of
+          <strong>Have positive affirmations from a selected category sent to you via
+            text every other day for 2 weeks at a time.</strong> I led implementation of
             Twilio and the affirmations database. Additionally a significant
             amount of my time was spent troubleshooting and researching
             documentation when technical issues arose throughout the team and
@@ -39,14 +40,15 @@ export default class Code extends Component {
         </div>
 
         <div>
-          <h2 className='projectTitle'>Astrolocus</h2>
-          <span className='mainP'>
+          <h1  className='projectTitle'>Astrolocus</h1>
+          <h4>REACT - LOCAL STORAGE - POSTGRESQL - HEROKU - CSS</h4>
+          <h4 >
             <a
               href='https://github.com/Astromapi'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Code
+              CODE
             </a>{' '}
             -{' '}
             <a
@@ -54,14 +56,13 @@ export default class Code extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Deployed
-            </a>
-          </span>
-          <h3>REACT - LOCAL STORAGE - POSTGRESQL - HEROKU - CSS</h3>
+              DEPLOYED
+            </a>| 4 ENGINEERS - 1 WEEK SPRINT - REMOTE 
+          </h4>
           <p className='mainP'>
-            Astrolocus allows you to see a 3 day span of weather and sky
+            <strong> Astrolocus allows you to see a 3 day span of weather and sky
             visibility, along with the ability added space objects to a wish
-            list and and journal entries with them in the future. I co-led the
+            list and and journal entries with them in the future.</strong> I co-led the
             development the PostgreSQL framework and functionality. Additionally
             I led the implementation of the weather graphic and NASA's photo of
             the day.
@@ -69,14 +70,15 @@ export default class Code extends Component {
         </div>
 
         <div>
-          <h2 className='projectTitle'>ALCHIGOTCHI</h2>
-          <span className='mainP'>
+          <h1 className='projectTitle'>ALCHIGOTCHI</h1>
+          <h4> JAVASCRIPT - HTML - LOCAL STORAGE - CSS</h4>
+          <h4 >
             <a
               href='https://github.com/Virtual-Pet-Task-Munger/virtual-pet'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Code
+              CODE
             </a>{' '}
             -{' '}
             <a
@@ -84,14 +86,13 @@ export default class Code extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Deployed
-            </a>
-          </span>
-          <h3> JAVASCRIPT - HTML - LOCAL STORAGE - CSS</h3>
+              DEPLOYED
+            </a>| 4 ENGINEERS - 1 WEEK SPRINT - REMOTE
+          </h4>
           <p className='mainP'>
-            Alchigotchi allows you to create an account, saving to local
+          <strong>Alchigotchi allows you to create an account, saving to local
             storage, choosing one of 3 pets and giving you the ability to take
-            care of their food, water and love needs. I led the development of
+            care of their food, water and love needs.</strong> I led the development of
             JavaScript to track and store stat changes and functionality to
             automatically reduce stats over time.
           </p>
