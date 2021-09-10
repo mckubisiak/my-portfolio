@@ -1,20 +1,21 @@
-h3 {
+h4 {
   color: #2946bf;
-  max-width: 95%;
-  font-family: 'Archivo Black', sans-serif;
-
+  max-width: 50%;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  padding-top: .5vh;
 }
 
-h2 {
+h1 {
   color: #2946bf;
   font-family: 'Archivo Black', sans-serif;
 
-}
-
-span {
-  font-family: 'Space Mono', monospace; 
 }
 
 .projectTitle {
   padding-top: 1vh;
+}
+
+strong {
+  font-weight: 900;
 }

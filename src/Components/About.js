@@ -23,7 +23,7 @@ export default class About extends Component {
           <article>
             <p className='mainP'>
               A queer trans Software Engineer. I love developing with people and
-              supporting everyone's common, as well as individual goals.
+              supporting everyone's common, and individual goals.
               Photography and{' '}
               <a
                 href='https://docs.google.com/document/d/1Tb3ETGO7tTbJFjT9ZHOJqpmd-qvIyq-JAkz8kT4pQfY/edit'

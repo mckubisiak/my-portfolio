@@ -7,7 +7,7 @@ font-family: 'Space Mono', monospace;
 * {
   margin: auto;
   text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
   /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -25,8 +25,6 @@ body {
 
 .header {
   padding-top: 1em;
-  font-family: 'Space Mono', monospace;
-  font-weight: bold;
 }
 
 .headerLink {
@@ -34,35 +32,25 @@ body {
   padding: 5px;
   margin: 10px;
   border-radius: 10px;
-  border: solid 2px #ff1abf;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 900;
 }
 
 a {
   color: #2946bf;
   text-decoration: underline;
-text-decoration-color: #ff1abf;
+
 }
 
 a:hover {
-  color: #ff1abf;
   text-decoration: underline;
-text-decoration-color: #2946bf;}
+text-decoration-color: #ff1abf;}
 
-.headerLink:hover {
-  color: #ff1abf;
-  border: solid 2px#2946bf;
+/* .headerLink:hover {
+  border: solid 1px #ff1abf;
 
-}
+} */
 
-.footer {
-  width: 100%;
-  height: 5vh;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #00000000;
-}
 
 .mainDiv {
   flex-direction: row;
@@ -89,20 +77,25 @@ article {
 .mainTitle {
   color: #2946bf;
   font-family: 'Archivo Black', sans-serif;
-  text-decoration: underline;
-  text-decoration-color: #ff1abf;
 }
 
 .mainP {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Noto Sans', sans-serif;
   color: #2946bf;
+  padding-top: 1vh;
 }
 
 input,
 textarea {
-  border: solid 4px #ff1abf;
+  border: solid 1.9px #ff1abf;
   border-radius: 10px;
   margin: 7px;
+  color: #2946bf;
+}
+
+input,textarea:focus {
+  border-color: #ff1abf;
+  outline-color: #ff1abf;
 }
 
 .App {
