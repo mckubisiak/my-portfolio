@@ -11,6 +11,7 @@ import Photography from './Components/Photography';
 import About from './Components/About';
 import Code from './Components/Code';
 import ContactForm from './Components/ContactForm';
+import CommentsContainer from './Containers/CommentsContainer';
 
 export default class App extends Component {
   render() {
@@ -43,6 +44,9 @@ export default class App extends Component {
               path='/contact'
               render={(routerProps) => <ContactForm {...routerProps} />}
             />
+
+        <Route path="/comments" exact component={CommentsContainer} />
+
           </Switch>
         </div>
       </Router>

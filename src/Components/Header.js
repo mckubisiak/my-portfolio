@@ -20,6 +20,7 @@ export default class Header extends Component {
           photography
         </a>
         <NavLink className='headerLink' to='/contact'>contact</NavLink>
+        <NavLink className='headerLink' to='/comments'>comments</NavLink>
       </div>
     );
   }
