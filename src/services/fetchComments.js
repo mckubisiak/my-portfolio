@@ -1,3 +1,5 @@
+import request from 'superagent';
+
 const apiURL = 'http://localhost:7890/api/v1/comments/';
 
 export const fetchComments = async () => {
@@ -13,3 +15,22 @@ export const fetchCommentById = async (id) => {
 
   return json;
 };
+
+
+// export const postComment = async (name, comment, email) => {
+//   const commentCard = {name: name, comment: comment, email: email}
+//   const response = await fetch(apiURL, {
+//       method: 'POST',
+//       body: JSON.stringify(commentCard)
+//   })
+//   const json = await response.json();
+
+//   return json;
+// };
+
+export const postComment = async (name, comment, email) => {
+  const commentCard = {name: name, comment: comment, email: email}
+  const response = await request.post(apiURL).send(commentCard);
+
+  return response;
+}
