@@ -9,6 +9,7 @@ const CreateComment = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     postComment(name, comment, email);
+    
   };
 
   // const handleNameChange = (event) => {

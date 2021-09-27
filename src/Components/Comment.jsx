@@ -2,13 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Comment = ({ id, name, comment, email, date }) => (
+const Comment = ({ id, name, comment, email }) => (
   <>
     <p>{name}</p>
-    <p>{date}</p>
     <p>{email}</p>
     <p>{comment}</p>
-    <Link to={`/${id}`}>Edit</Link>
+    <Link to={`/comments/${id}`}>Edit</Link>
   </>
 );
 
