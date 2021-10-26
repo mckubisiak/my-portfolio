@@ -18,7 +18,6 @@ export const useAllComments = () => {
   return { comments, loading };
 };
 
-
 // export const useAComment = () => {
 //   const [loading, setLoading] = useState(true);
 //   const [comment, setComment] = useState([]);

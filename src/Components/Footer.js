@@ -46,7 +46,7 @@ export default class Footer extends Component {
           <img className='icon' src='./github.png' alt='Github' />
         </a>
         {/*<br></br>
-        <label htmlFor='material-switch'>
+      <label htmlFor='material-switch'>
             <Switch
             checked={this.state.checked}
             onChange={this.handleChange}
